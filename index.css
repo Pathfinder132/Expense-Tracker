@@ -54,6 +54,8 @@ html{
     border: 5px solid black;
     border-radius: 10px;
     margin-left: 10px;
+    overflow-y: scroll;
+    max-height: 500px;
 }
 .dashboard{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -64,7 +66,11 @@ html{
     text-align: center;
     border-bottom: 1px solid black;
     box-sizing: border-box;
+    
 }  
 .cubes{
-    background-color: black;
+    background-color: white;
+    margin: 0px;
+    margin-left: 10px;
+    border-radius: 5px;
 }
