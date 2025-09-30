@@ -11,38 +11,22 @@
       <p>EXPENSE TRACKER</p>
     </div>
     <div class="secondary">
-      <form class="add-field" action="/action_page.php" method="post">
-        <input
-          type="submit"
-          id="cname"
-          name="cname"
-          placeholder="YourExpense"
-          class="add"
-          value="+ ADD EXPENSE"
-        />
+      <form class="add-field" id="test">
+        <input type="submit" id="cname" name="cname" placeholder="YourExpense" class="add" value="+ ADD EXPENSE" />
 
         <div class="form-row">
           <label for="fname" class="show">Expense Name:</label>
-          <input
-            type="text"
-            id="fname"
-            name="fname"
-            placeholder="Your Expense"
-            class="field"
-            required
-          />
+          <input type="text" id="fname" name="fname" placeholder="" class="field" required />
         </div>
 
         <div class="form-row">
           <label for="gname" class="show">Amount:</label>
-          <input
-            type="number"
-            id="gname"
-            name="gname"
-            placeholder="Amount"
-            class="field"
-            required
-          />
+          <input type="number" id="gname" name="gname" placeholder="" class="field" required />
+        </div>
+
+        <div class="form-row">
+          <label for="hname" class="show">Date:</label>
+          <input type="date" id="hname" name="hname" placeholder="" class="field" required />
         </div>
       </form>
       <div class="month">
